@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  body {
+    @apply bg-base-100 text-base-content min-h-screen;
+  }
+  /* Improve tap targets on mobile */
+  button, a, [role="button"] {
+    @apply touch-manipulation;
+  }
+}

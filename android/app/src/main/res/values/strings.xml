@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">XComps</string>
-    <string name="title_activity_main">XComps</string>
-    <string name="package_name">io.github.danielde8.xcomps</string>
-    <string name="custom_url_scheme">io.github.danielde8.xcomps</string>
+    <string name="app_name">XComps for DHTask</string>
+    <string name="title_activity_main">XComps for DHTask</string>
+    <string name="package_name">com.dhtask.xcomps</string>
+    <string name="custom_url_scheme">com.dhtask.xcomps</string>
 </resources>

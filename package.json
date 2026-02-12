@@ -1,14 +1,15 @@
 {
-  "name": "xcomps",
+  "name": "xcomps-dhtask",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "cap": "vite build && npx cap sync && npx cap open android",
-    "cap_build": "vite build && npx cap sync"
+    "cap": "npm run cap_build && npx cap open android",
+    "cap_build": "npx @capacitor/assets generate --android && vite build && npx cap sync",
+    "cap_clean": "cd android && ./gradlew clean && cd .."
   },
   "devDependencies": {
     "@capacitor/assets": "^3.0.5",
@@ -26,7 +27,9 @@
     "@capacitor/core": "^7.4.2",
     "@capacitor/filesystem": "^7.1.4",
     "@capacitor/preferences": "^7.0.2",
-    "cheerio": "^1.1.2",
     "core-js": "^3.45.0"
+  },
+  "overrides": {
+    "tar": ">=7.5.7"
   }
 }

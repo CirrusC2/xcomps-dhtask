@@ -1,4 +1,4 @@
-package io.github.danielde8.xcomps;
+package com.dhtask.xcomps;
 
 import android.os.Build;
 import android.os.Bundle;

@@ -1,6 +1,6 @@
-# Privacy Policy for XComps
+# Privacy Policy for XComps for DHTask
 
-XComps (“the App”), developed by [DanielDe8](https://github.com/danielde8), respects your privacy.  
+XComps for DHTask (“the App”), developed by [DanielDe8](https://github.com/danielde8), respects your privacy.  
 This policy explains what data is handled and why.
 
 

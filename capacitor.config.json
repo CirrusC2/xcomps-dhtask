@@ -1,6 +1,6 @@
 {
-  "appId": "io.github.danielde8.xcomps",
-  "appName": "XComps",
+  "appId": "com.dhtask.xcomps",
+  "appName": "XComps for DHTask",
   "webDir": "dist",
   "bundledWebRuntime": false,
   "plugins": {
